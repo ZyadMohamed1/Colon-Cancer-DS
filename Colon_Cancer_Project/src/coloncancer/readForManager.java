@@ -5,7 +5,7 @@
  */
 package coloncancer;
 
-
+import static coloncancer.ReadFromExcel.fileDictName;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -25,34 +25,22 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 /**
  *
- * @author A.Elleissy
+ * @author Zyad
  */
-public class ReadFromExcel {
+public class readForManager {
     
-    static String fileDictName = "";
+      
+    static String testFile = "C:\\Users\\Zyad\\Documents\\NetBeansProjects\\Test.xlsx";
     public ArrayList<Double> genesToBeTested = new ArrayList<>();
     public String condition;
     
-    public void Read(int id)
-    {  
-        XSSFWorkbook workbook;
+    
+    public void ReadManager(int id){
+        
+    XSSFWorkbook workbook;
 
-        JFileChooser fileChooser = new JFileChooser();
-        fileChooser.setDialogTitle("Open the file"); //name for chooser
-         
-        FileFilter filter = new FileNameExtensionFilter("Excel File (.xlsx)","xlsx");
-        fileChooser.setAcceptAllFileFilterUsed(false); //to show or not all other files
-        fileChooser.addChoosableFileFilter(filter);
-        fileChooser.setSelectedFile(new File(fileDictName)); //when you want to show the name of file into the chooser
-        fileChooser.setVisible(true);
-        int result = fileChooser.showOpenDialog(fileChooser);
-        if (result == JFileChooser.APPROVE_OPTION) {
-            fileDictName = fileChooser.getSelectedFile().getAbsolutePath();
-        } else {
-            return;
-        }
+           File file = new File(testFile);
 
-        File file = new File(fileDictName);
         if (file.exists() == false) {
             workbook = new XSSFWorkbook();
             XSSFSheet exampleSheet = workbook.createSheet("1");
@@ -110,7 +98,5 @@ public class ReadFromExcel {
     }
     }
     
-        
-    }
-   
-
+    
+}

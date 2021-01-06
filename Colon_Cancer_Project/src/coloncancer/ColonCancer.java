@@ -5,6 +5,8 @@
  */
 package coloncancer;
 
+import java.io.IOException;
+
  
  
  
@@ -29,12 +31,20 @@ package coloncancer;
  *
  * @author A.Elleissy
  */
+
 public class ColonCancer {
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         
-      DoctorFunction dc = new DoctorFunction(40);
-      dc.predict();
+      DoctorFunction dc = new DoctorFunction(45);
+      dc.finalDoctor();
+      
+//      ManagerFunction mg = new ManagerFunction();
+//         mg.findMin();
+     
+     
     }
+    
+    
     
 }
