@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coloncancer.ManagerController">
+   <children>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #191919;" styleClass="bodybg" stylesheets="@css.css">
+         <bottom>
+            <HBox spacing="10.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label prefHeight="32.0" prefWidth="123.0" text="Manager Page" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Button mnemonicParsing="false" onAction="#homepageButton2" text="Back to Homepage" />
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </HBox>
+         </bottom>
+         <center>
+            <Button mnemonicParsing="false" onAction="#displayAccuracy" prefHeight="107.0" prefWidth="338.0" style="-fx-border-radius: 24; -fx-background-color: transparent; -fx-border-color: #2ecc71;" text="Show Accuracy of Predictions" textFill="WHITE" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+         </center>
+         <top>
+            <HBox spacing="10.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label prefHeight="54.0" prefWidth="198.0" text="  Accuracy:" textFill="WHITE">
+                     <font>
+                        <Font size="37.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label" layoutX="10.0" layoutY="10.0" prefHeight="54.0" prefWidth="160.0" text="..." textFill="WHITE">
+                     <font>
+                        <Font size="37.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #191919;" styleClass="bodybg" stylesheets="@css.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coloncancer.HelpController">
+   <children>
+      <HBox layoutY="358.0" prefHeight="42.0" prefWidth="606.0" spacing="10.0" style="-fx-background-color: white;">
+         <children>
+            <Label prefHeight="32.0" prefWidth="105.0" text="Help Page" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#homepageButton3" text="Back to Homepage" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <TextArea editable="false" layoutX="242.0" layoutY="41.0" prefHeight="75.0" prefWidth="320.0" text="A doctor can determine whether the patient has colon cancer or not by using training models on this patient." wrapText="true" />
+      <Button alignment="CENTER" layoutX="41.0" layoutY="41.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="157.0" style="-fx-background-color: transparent; -fx-border-color: #3498db;" text="Doctor:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="41.0" layoutY="200.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="157.0" style="-fx-background-color: transparent; -fx-border-color: #3498db;" text="Manager:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Button>
+      <TextArea editable="false" layoutX="242.0" layoutY="200.0" prefHeight="75.0" prefWidth="320.0" text="A manager can test the patients by using training models and determine the overall accuracy of this test." wrapText="true" />
+   </children>
+</AnchorPane>

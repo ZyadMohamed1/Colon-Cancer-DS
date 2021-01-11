@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #191919;" styleClass="bodybg" stylesheets="@css.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coloncancer.HomepageController">
+   <children>
+      <Button alignment="CENTER" layoutX="225.0" layoutY="170.0" mnemonicParsing="false" onAction="#managerButton" prefHeight="75.0" prefWidth="150.0" style="-fx-background-color: transparent; -fx-border-radius: 35px; -fx-border-color: #3498db;" text="Manager" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="26.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="50.0" layoutY="170.0" mnemonicParsing="false" onAction="#doctorButton" prefHeight="75.0" prefWidth="150.0" style="-fx-background-color: transparent; -fx-border-radius: 40px; -fx-border-color: #3498db;" text="Doctor" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="400.0" layoutY="170.0" mnemonicParsing="false" onAction="#helpButton" prefHeight="75.0" prefWidth="150.0" style="-fx-background-color: transparent; -fx-border-radius: 40px; -fx-border-color: #3498db;" text="Help" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="26.0" />
+         </font>
+      </Button>
+      <Label layoutX="14.0" layoutY="362.0" prefHeight="32.0" prefWidth="110.0" text="Home Page" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Region />
+   </children>
+</AnchorPane>

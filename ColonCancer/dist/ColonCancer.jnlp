@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ColonCancer.jnlp">
+  <information>
+    <title>ColonCancer</title>
+    <vendor>Ismail</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ColonCancer.jar" size="120085" download="eager" />
+    <jar href="lib\commons-collections4-4.4.jar" size="751914" download="eager" />
+    <jar href="lib\commons-compress-1.19.jar" size="615064" download="eager" />
+    <jar href="lib\poi-4.1.2.jar" size="2915337" download="eager" />
+    <jar href="lib\poi-ooxml-4.1.2.jar" size="1888231" download="eager" />
+    <jar href="lib\poi-ooxml-schemas-4.1.2.jar" size="7912488" download="eager" />
+    <jar href="lib\xmlbeans-3.1.0.jar" size="2579738" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ColonCancer" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="coloncancer.ColonCancer"  name="ColonCancer" />
+  <update check="always"/>
+</jnlp>

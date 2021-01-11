@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #191919;" styleClass="bodybg" stylesheets="@css.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coloncancer.DoctorController">
+   <top>
+      <VBox BorderPane.alignment="CENTER">
+         <children>
+            <HBox spacing="15.0">
+               <children>
+                  <Label prefHeight="47.0" prefWidth="205.0" text="Enter Patient ID:" textFill="WHITE">
+                     <font>
+                        <Font size="27.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txt1" alignment="CENTER" prefHeight="46.0" prefWidth="135.0" promptText="..." style="-fx-border-radius: 24px; -fx-border-color: #3498db; -fx-background-color: transparent; -fx-font-color: white;">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <Button mnemonicParsing="false" onAction="#patientInput" prefHeight="46.0" prefWidth="135.0" style="-fx-border-radius: 24px; -fx-background-color: transparent; -fx-border-color: #2ecc71;" text="Enter" textFill="WHITE">
+                     <font>
+                        <Font name="Lucida Sans Unicode" size="16.0" />
+                     </font>
+                  </Button>
+                  <Region />
+                  <Label fx:id="label1" prefHeight="49.0" prefWidth="83.0" text="..." textFill="WHITE">
+                     <font>
+                        <Font size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </top>
+   <bottom>
+      <HBox spacing="10.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <Label prefHeight="32.0" prefWidth="110.0" text="Doctor Page" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font></Label>
+            <Button mnemonicParsing="false" onAction="#homepageButton" text="Back to Homepage" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+   </bottom>
+   <center>
+      <Button mnemonicParsing="false" onAction="#predictionDisplay" prefHeight="46.0" prefWidth="159.0" style="-fx-border-radius: 24px; -fx-background-color: transparent; -fx-border-color: #2ecc71;" text="Predict Results" textFill="WHITE" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Lucida Sans Unicode" size="16.0" />
+         </font>
+      </Button>
+   </center>
+   <right>
+      <Label fx:id="label2" prefHeight="47.0" prefWidth="301.0" text="..." textFill="WHITE" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </right>
+</BorderPane>
