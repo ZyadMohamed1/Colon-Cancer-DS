@@ -1,4 +1,4 @@
-## Colon Cance Diagnose System
+## Colon Cancer Diagnosis System
 
 ![Main Menu](/images/menu.png)
 
