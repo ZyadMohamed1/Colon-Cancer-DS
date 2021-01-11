@@ -4,8 +4,8 @@
 
 ### Introduction
 
-This project detect wether the patient has colon cancer or not by training the patient on models to detect the result of this test
-Dealing with two excel files containing the genes and the data of this patient.
+This project detect whether the patient has colon cancer or not by training the patient on models to detect the result of this test
+Dealing with excel files containing the genes and the data of this patient.
 
 ### ToolKit Used:
 * Java
