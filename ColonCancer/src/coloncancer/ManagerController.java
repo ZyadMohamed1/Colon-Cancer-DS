@@ -34,8 +34,8 @@ public class ManagerController implements Initializable {
 ManagerFunction mg = new ManagerFunction();
 
 String str = mg.accuracy();
-label.setText(str);
-System.out.println(str);
+label.setText(str + "%");
+System.out.println(str + "%");
 //System.out.println(df.format(mg.accuracy())+"%");
 
     }
