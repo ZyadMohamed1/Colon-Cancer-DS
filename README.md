@@ -8,7 +8,6 @@ This project detects whether or not a patient has colon cancer by testing the pa
 
 ### ToolKit Used:
 * Java
-* OOP concepts
 * JavaFX
 * JavaFX Scene Builder
 * Apache Library for Excel
