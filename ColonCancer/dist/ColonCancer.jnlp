@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="ColonCancer.jar" size="120160" download="eager" />
+    <jar href="ColonCancer.jar" size="120164" download="eager" />
     <jar href="lib\commons-collections4-4.4.jar" size="751914" download="eager" />
     <jar href="lib\commons-compress-1.19.jar" size="615064" download="eager" />
     <jar href="lib\poi-4.1.2.jar" size="2915337" download="eager" />

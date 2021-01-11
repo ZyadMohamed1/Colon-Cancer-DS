@@ -8,10 +8,10 @@ This project detect wether the patient has colon cancer or not by training the p
 Dealing with two excel files containing the genes and the data of this patient.
 
 ### ToolKit Used:
-*Java
-*Javafx
-*OOP
-*Apache Library for excel
+* Java
+* Javafx
+* OOP
+* Apache Library for excel
 
 ### Doctor Page
 ![Doctor Page](/images/Doctor.png)

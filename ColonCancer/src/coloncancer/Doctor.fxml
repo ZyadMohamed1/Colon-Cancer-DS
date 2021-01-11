@@ -20,7 +20,7 @@
                         <Font size="27.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="txt1" alignment="CENTER" prefHeight="46.0" prefWidth="135.0" promptText="..." style="-fx-border-radius: 24px; -fx-border-color: #3498db; -fx-background-color: transparent; -fx-font-color: white;">
+                  <TextField fx:id="txt1" alignment="CENTER" prefHeight="46.0" prefWidth="135.0" promptText="..." style="-fx-border-radius: 24px; -fx-border-color: #3498db; -fx-background-color: transparent; -fx-text-fill: white;">
                      <font>
                         <Font size="20.0" />
                      </font>
