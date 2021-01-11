@@ -4,7 +4,7 @@
 
 ### Introduction
 
-** This project detects whether or not a patient has colon cancer by testing the patient using data models and detecting the result of this test, the data models include excel files containing the genes and data of the patient. **
+**This project detects whether or not a patient has colon cancer by testing the patient using data models and detecting the result of this test, the data models include excel files containing the genes and data of the patient.**
 
 ### ToolKit Used:
 * Java
