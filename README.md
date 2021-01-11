@@ -9,8 +9,9 @@ Dealing with two excel files containing the genes and the data of this patient.
 
 ### ToolKit Used:
 * Java
+* OOP concepts
 * Javafx
-* OOP
+* Javafx Scene Builder
 * Apache Library for excel
 
 ### Doctor Page
